@@ -27,13 +27,15 @@ const ContactMeRight = () => {
   return (
     <motion.div
       initial={{ opacity: 0, x: 30 }}
-      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8 }}
       className="flex flex-col items-center justify-center gap-8 relative z-10"
     >
       {/* Email illustration with animation */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}
         className="relative"
@@ -63,6 +65,7 @@ const ContactMeRight = () => {
       {/* Contact Information */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4 }}
         className="w-full"
@@ -73,6 +76,7 @@ const ContactMeRight = () => {
       {/* Social Media Links */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.6 }}
         className="w-full"
@@ -106,6 +110,7 @@ const ContactMeRight = () => {
       {/* Quick response badge */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6, delay: 0.8 }}
         className="bg-gradient-to-r from-green/10 to-cyan/10 backdrop-blur-sm border border-green/20 rounded-xl p-4 text-center"

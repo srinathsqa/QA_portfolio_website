@@ -13,6 +13,7 @@ const SkillsText = ({ activeTab, setActiveTab }) => {
       {/* Header with gradient and animations */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         className="text-center relative"
@@ -44,6 +45,7 @@ const SkillsText = ({ activeTab, setActiveTab }) => {
       {/* Enhanced description with typewriter */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}
         className="max-w-4xl text-center relative"
@@ -62,7 +64,8 @@ const SkillsText = ({ activeTab, setActiveTab }) => {
         {/* Tech tags */}
         <motion.div
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 1 }}
           className="flex flex-wrap justify-center gap-2 mt-6"
         >

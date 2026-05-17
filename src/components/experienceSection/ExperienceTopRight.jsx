@@ -13,7 +13,8 @@ const ExperienceTopRight = () => {
   return (
     <motion.div 
       initial={{ opacity: 0, x: 50 }}
-      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8, delay: 0.2 }}
       className="lg:w-[350px] sm:w-full bg-gradient-to-br from-gray-900/50 to-black/30 backdrop-blur-sm border border-green/20 p-6 rounded-2xl hover:border-green/40 transition-all duration-500 hover:shadow-xl hover:shadow-green/10"
     >

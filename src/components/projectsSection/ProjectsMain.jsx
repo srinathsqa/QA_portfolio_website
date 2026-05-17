@@ -14,7 +14,7 @@ const ProjectsMain = () => {
         variants={fadeIn("top", 0.05)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
       >
         <ProjectsText />
       </motion.div>
@@ -24,7 +24,7 @@ const ProjectsMain = () => {
           variants={fadeIn("right", 0.05)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         >
           <SingleProject
             name="Para Bank Automation"
@@ -42,7 +42,7 @@ const ProjectsMain = () => {
           variants={fadeIn("left", 0.05)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         >
           <SingleProject
             name="OrangeHRM HR Automation"
@@ -60,7 +60,7 @@ const ProjectsMain = () => {
           variants={fadeIn("right", 0.05)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         >
           <SingleProject
             name="SauceDemo Manual Testing"
@@ -78,7 +78,7 @@ const ProjectsMain = () => {
           variants={fadeIn("left", 0.05)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         >
           <SingleProject
             name="SauceDemo Automation"
@@ -96,7 +96,7 @@ const ProjectsMain = () => {
           variants={fadeIn("right", 0.05)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         >
           <SingleProject
             name="KFC India React Automation"
@@ -114,7 +114,7 @@ const ProjectsMain = () => {
           variants={fadeIn("left", 0.05)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         >
           <SingleProject
             name="FullyFilmy E-Commerce Automation"
@@ -133,7 +133,7 @@ const ProjectsMain = () => {
         variants={fadeIn("up", 0.15)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="mt-20"
       >
         <ComingSoonProject />

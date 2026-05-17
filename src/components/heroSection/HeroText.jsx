@@ -17,7 +17,7 @@ const HeroText = () => {
         variants={fadeIn("down", 0.1)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="text-green/60 font-mono text-sm"
       >
         <span className="text-green">01.</span> console.log(&quot;Hello World&quot;);
@@ -27,7 +27,7 @@ const HeroText = () => {
         variants={fadeIn("down", 0.2)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="lg:text-2xl sm:text-xl uppercase text-white/80 font-light tracking-wider"
       >
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan to-green font-semibold">QA Automation</span>{" "}
@@ -40,7 +40,7 @@ const HeroText = () => {
         variants={fadeIn("right", 0.4)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="md:text-[3.5rem] lg:text-6xl sm:text-5xl font-bold uppercase relative whitespace-nowrap"
       >
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-green via-cyan to-green bg-[length:200%_auto] animate-pulse">
@@ -60,7 +60,7 @@ const HeroText = () => {
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="space-y-4"
       >
         <p className="text-lg text-white/80 leading-relaxed">
@@ -86,7 +86,7 @@ const HeroText = () => {
         variants={fadeIn("up", 0.8)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="flex items-center gap-2 text-green/80 font-mono text-sm mt-4"
       >
         <span className="text-green">$</span>
@@ -104,3 +104,4 @@ const HeroText = () => {
 };
 
 export default HeroText;
+

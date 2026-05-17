@@ -8,7 +8,7 @@ const SingleExperience = ({ experience, index }) => {
       variants={fadeIn("up", index * 0.2)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
       className="group relative bg-gradient-to-br from-gray-900/50 to-black/30 backdrop-blur-sm border border-green/20 rounded-2xl p-6 hover:border-green/40 transition-all duration-500 hover:shadow-xl hover:shadow-green/10 hover:-translate-y-2"
     >
       {/* Glow effect on hover */}
@@ -98,3 +98,4 @@ const SingleExperience = ({ experience, index }) => {
 };
 
 export default SingleExperience;
+

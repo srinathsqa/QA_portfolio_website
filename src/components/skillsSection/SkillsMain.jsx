@@ -69,7 +69,7 @@ const SkillsMain = () => {
           variants={fadeIn("down", 0.2)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         >
           <SkillsText activeTab={activeTab} setActiveTab={setActiveTab} />
         </motion.div>
@@ -78,7 +78,8 @@ const SkillsMain = () => {
         <div className="w-full">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <AllSkills activeTab={activeTab} />
@@ -99,3 +100,4 @@ const SkillsMain = () => {
 };
 
 export default SkillsMain;
+

@@ -72,7 +72,8 @@ const ContactForm = () => {
         {/* Name input */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
           className="relative group"
         >
@@ -95,7 +96,8 @@ const ContactForm = () => {
         {/* Email input */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           className="relative group"
         >
@@ -118,7 +120,8 @@ const ContactForm = () => {
         {/* Message textarea */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className="relative group"
         >
@@ -143,7 +146,8 @@ const ContactForm = () => {
           type="submit"
           disabled={isSubmitting}
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}

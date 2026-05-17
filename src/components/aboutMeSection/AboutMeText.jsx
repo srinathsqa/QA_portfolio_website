@@ -27,7 +27,7 @@ const AboutMeText = () => {
         variants={fadeIn("right", 0.1)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="text-6xl md:text-7xl font-bold mb-8 relative"
       >
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan via-green to-cyan bg-[length:200%_auto] animate-gradient-shift">
@@ -45,7 +45,7 @@ const AboutMeText = () => {
         variants={fadeIn("right", 0.1)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="flex items-center gap-2 mb-6"
       >
         <span className="text-green font-mono text-sm">$</span>
@@ -64,7 +64,7 @@ const AboutMeText = () => {
         variants={fadeIn("right", 0.1)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="space-y-4 text-white/80 leading-relaxed"
       >
         <p className="text-lg">
@@ -85,7 +85,7 @@ const AboutMeText = () => {
         variants={fadeIn("right", 0.3)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="flex flex-wrap gap-4 mt-8"
       >
         <div className="flex items-center gap-2 px-3 py-2 bg-green/10 border border-green/20 rounded-lg hover:bg-green/20 transition-colors duration-300">
@@ -107,7 +107,7 @@ const AboutMeText = () => {
         variants={fadeIn("right", 0.4)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="mt-10"
       >
         <Link
@@ -133,3 +133,4 @@ const AboutMeText = () => {
 };
 
 export default AboutMeText;
+

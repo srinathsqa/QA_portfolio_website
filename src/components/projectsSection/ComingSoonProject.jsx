@@ -8,7 +8,7 @@ const ComingSoonProject = () => {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
       transition={{ duration: 0.6 }}
       className="relative mt-32"
     >
@@ -68,3 +68,4 @@ const ComingSoonProject = () => {
 };
 
 export default ComingSoonProject;
+

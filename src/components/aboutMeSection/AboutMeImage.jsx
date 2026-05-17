@@ -17,7 +17,7 @@ const AboutMeImage = () => {
       variants={fadeIn("left", 0.4)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
       className="relative group"
     >
       {/* Main image container with modern styling */}
@@ -123,3 +123,4 @@ const AboutMeImage = () => {
 };
 
 export default AboutMeImage;
+

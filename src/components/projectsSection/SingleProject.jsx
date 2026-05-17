@@ -13,7 +13,7 @@ const SingleProject = ({ name, year, align, image, link, description, tags, badg
       variants={fadeIn("top", 0)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.1 }}
+      viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
       className={`flex w-full sm:flex-col-reverse items-center gap-8 ${
         align === "left" ? "md:flex-row" : "md:flex-row-reverse"
       } justify-between sm:flex-col group`}
@@ -158,3 +158,4 @@ SingleProject.propTypes = {
 };
 
 export default SingleProject;
+

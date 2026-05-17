@@ -13,7 +13,8 @@ const ContactInfo = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       className="space-y-4"
     >
@@ -27,7 +28,8 @@ const ContactInfo = () => {
           <motion.div
             key={index}
             initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.4, delay: index * 0.1 }}
           >
             <SingleInfo text={item.text} Image={item.Icon} />

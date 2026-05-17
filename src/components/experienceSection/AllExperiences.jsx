@@ -85,7 +85,7 @@ const AllExperiences = () => {
         variants={fadeIn("down", 0)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="text-center mb-12"
       >
         <h3 className="text-2xl font-bold text-white mb-4">Professional Journey</h3>
@@ -105,7 +105,7 @@ const AllExperiences = () => {
               variants={fadeIn(index % 2 === 0 ? "left" : "right", index * 0.2)}
               initial="hidden"
               whileInView="show"
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
               className="relative"
             >
               {/* Timeline dot positioned relative to each card */}
@@ -139,7 +139,7 @@ const AllExperiences = () => {
         variants={fadeIn("up", 0.5)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="text-center mt-16 p-8 bg-gradient-to-r from-gray-900/50 to-black/30 backdrop-blur-sm rounded-2xl border border-green/20"
       >
         <h3 className="text-xl font-bold text-white mb-4">Let&apos;s Work Together</h3>
@@ -173,3 +173,4 @@ const AllExperiences = () => {
 };
 
 export default AllExperiences;
+

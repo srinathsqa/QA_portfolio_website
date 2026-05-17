@@ -18,7 +18,7 @@ const HeroPic = () => {
       variants={fadeIn("left", 0.2)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0 }}
+      viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
       className="relative h-full flex items-center justify-center group"
     >
       {/* Main profile image with enhanced styling */}
@@ -119,3 +119,4 @@ const HeroPic = () => {
 };
 
 export default HeroPic;
+

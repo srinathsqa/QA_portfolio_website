@@ -54,7 +54,7 @@ const ExperienceMain = () => {
           variants={fadeIn("down", 0)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         >
           <ExperienceText />
         </motion.div>
@@ -64,7 +64,7 @@ const ExperienceMain = () => {
           variants={fadeIn("down", 0.5)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         >
           <ExperienceTop />
         </motion.div>
@@ -72,7 +72,8 @@ const ExperienceMain = () => {
         {/* Enhanced separator line */}
         <motion.div
           initial={{ width: 0 }}
-          whileInView={{ width: "100%" }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ width: "100%" }}
           transition={{ duration: 1.5, delay: 0.5 }}
           className="h-1 mt-8 mb-4 bg-gradient-to-r from-transparent via-cyan to-transparent lg:block sm:hidden rounded-full"
         />
@@ -80,7 +81,8 @@ const ExperienceMain = () => {
         {/* All experiences section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
           <AllExperiences />
@@ -119,3 +121,4 @@ const ExperienceMain = () => {
 };
 
 export default ExperienceMain;
+

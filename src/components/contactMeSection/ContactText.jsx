@@ -5,7 +5,8 @@ const ContactText = () => {
   return (
     <motion.div
       initial={{ opacity: 0, x: -30 }}
-      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8 }}
       className="relative z-10"
     >
@@ -29,6 +30,7 @@ const ContactText = () => {
       {/* Animated decorative line */}
       <motion.div 
         initial={{ width: 0 }}
+        viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         whileInView={{ width: "6rem" }}
         transition={{ duration: 1, delay: 0.3 }}
         className="h-1 bg-gradient-to-r from-green to-cyan rounded-full mb-8"
@@ -39,7 +41,8 @@ const ContactText = () => {
         {/* Primary message */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <p className="text-gray-300 text-lg leading-relaxed mb-4">
@@ -51,7 +54,8 @@ const ContactText = () => {
         {/* Services grid */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
           className="bg-gradient-to-r from-black/30 to-gray-900/30 rounded-xl p-6 border border-green/20 backdrop-blur-sm"
         >
@@ -82,7 +86,8 @@ const ContactText = () => {
         {/* Call to action */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
+        whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.8 }}
           className="bg-green/5 border border-green/20 rounded-lg p-4"
         >
