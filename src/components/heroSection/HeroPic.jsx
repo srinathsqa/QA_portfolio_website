@@ -25,8 +25,8 @@ const HeroPic = () => {
       <div className="relative z-20">
         <div className="relative overflow-hidden rounded-full border-4 border-green/30 hover:border-green/60 transition-all duration-500 group-hover:scale-105">
           <img
-            src="/images/cropped_circle_image.png"
-            alt="Deepak S - QA Automation Engineer"
+            src={`${import.meta.env.BASE_URL}images/cropped_circle_image.png`}
+            alt="Srinath S - QA Automation Engineer"
             className="max-h-[450px] w-auto filter hover:brightness-110 transition-all duration-500"
           />
           

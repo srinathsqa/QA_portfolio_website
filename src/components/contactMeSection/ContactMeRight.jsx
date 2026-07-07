@@ -44,7 +44,7 @@ const ContactMeRight = () => {
         <motion.img
           animate={{ y: [-10, 10, -10] }}
           transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-          src="/images/email-image.png"
+          src={`${import.meta.env.BASE_URL}images/email-image.png`}
           alt="email illustration"
           className="max-w-[280px] relative z-10 drop-shadow-lg"
         />
