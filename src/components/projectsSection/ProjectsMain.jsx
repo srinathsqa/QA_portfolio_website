@@ -26,6 +26,7 @@ const ProjectsMain = () => {
           whileInView="show"
           viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         >
+          {/*
           <SingleProject
             name="Para Bank Automation"
             year="2026"
@@ -36,6 +37,8 @@ const ProjectsMain = () => {
             description="End-to-end BDD Cucumber framework for a banking app. 6 Gherkin scenarios — 6/6 passed. Jenkins CI/CD pipeline with BUILD SUCCESS. SQL/JDBC backend validation."
             tags={["Java", "Selenium", "BDD Cucumber", "Jenkins", "TestNG", "Maven"]}
           />
+          */}
+          
         </motion.div>
 
         <motion.div
@@ -49,7 +52,7 @@ const ProjectsMain = () => {
             year="2026"
             align="left"
             image="/images/website-img-3.jpg"
-            link="https://github.com/deepaksekarqa/orangehrm-automation-testing"
+            link="https://github.com/srinathsqa/orangehrm-selenium-framework"
             badge="7/7 Passed ✓"
             description="Data-Driven Testing using Apache POI reading employee data from Excel. @DataProvider ran tests 3x dynamically. 7/7 test executions passed."
             tags={["Java", "Selenium", "Apache POI", "TestNG", "Maven", "POM"]}
@@ -67,7 +70,7 @@ const ProjectsMain = () => {
             year="2025"
             align="right"
             image="/images/website-img-2.webp"
-            link="https://github.com/deepaksekarqa/saucedemo-manual-testing-project"
+            link="https://github.com/srinathsqa/SauceDemo-Manual-Testing"
             badge="60/63 Passed ✓"
             description="Full STLC manual testing — 8 QA artifacts produced. 63 test cases across 6 modules. 60/63 passed. 4 defects found, logged, and traced via RTM."
             tags={["Manual Testing", "STLC", "Bug Reporting", "RTM", "Test Cases"]}
@@ -80,16 +83,19 @@ const ProjectsMain = () => {
           whileInView="show"
           viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         >
+          {/*
           <SingleProject
             name="SauceDemo Automation"
             year="2025"
             align="left"
             image="/images/website-img-4.jpg"
-            link="https://github.com/deepaksekarqa/saucedemo-automation-testing"
+            link="https://github.com/srinathsqa/SauceDemo-Automation"
             badge="5/5 Passed ✓"
             description="Login to logout automation framework. Page Object Model architecture. WebDriverManager for driver management. 5/5 tests passed."
             tags={["Java", "Selenium", "TestNG", "Maven", "POM"]}
           />
+            
+
         </motion.div>
 
         <motion.div
@@ -126,6 +132,8 @@ const ProjectsMain = () => {
             description="Shopify e-commerce automation with dynamic cart operations. Parameterised selectProduct() and removeProduct() methods. 5/5 tests passed."
             tags={["Java", "Selenium", "TestNG", "Maven", "POM"]}
           />
+            */}
+
         </motion.div>
       </div>
 

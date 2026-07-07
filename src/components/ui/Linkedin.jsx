@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Button = () => {
   const handleClick = () => {
-    window.location.href = "https://www.linkedin.com/in/utkxrsh13"; // Replace with your LinkedIn profile link
+    window.location.href = "https://www.linkedin.com/in/srinathsekar/"; // Replace with your LinkedIn profile link
   };
   return (
     <StyledWrapper>

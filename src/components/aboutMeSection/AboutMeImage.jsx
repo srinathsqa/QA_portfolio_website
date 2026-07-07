@@ -27,7 +27,7 @@ const AboutMeImage = () => {
             {/* Enhanced image with overlay effects */}
             <img
               src="/images/about-me.jpg"
-              alt="Utkarsh Tiwari - About Me"
+              alt="Srinath S - About Me"
               className="w-full h-full object-cover transition-all duration-500 group-hover:scale-105 filter group-hover:brightness-110"
             />
 

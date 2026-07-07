@@ -11,8 +11,8 @@ const LandingPage = ({ onEnter = () => {} }) => {
   const [bootSequence, setBootSequence] = useState(false);
 
   const terminalSequence = [
-    { command: "$ whoami", output: "deepak - software test engineer", delay: 1000 },
-    { command: "$ pwd", output: "/home/deepak/portfolio", delay: 800 },
+    { command: "$ whoami", output: "Srinath - QA Automation Engineer", delay: 1000 },
+    { command: "$ pwd", output: "/home/srinath/portfolio", delay: 800 },
     { command: "$ ls -la qa-skills/", output: "manual-testing selenium-webdriver java testng postman sql jira git", delay: 1200 },
     { command: "$ cat mission.txt", output: "Ensuring software quality through testing & automation", delay: 1000 },
     { command: "$ ./run_portfolio.sh", output: "Initializing QA portfolio interface...", delay: 800 }
@@ -170,7 +170,7 @@ const LandingPage = ({ onEnter = () => {} }) => {
               <div className="w-3 h-3 rounded-full bg-green-500"></div>
             </div>
             <div className="flex-1 text-center text-sm text-green-300">
-              deepak@qa-portfolio:~$ 
+              srinath@qa-portfolio:~$ 
             </div>
             <div className="text-xs text-green-600">
               {new Date().toLocaleTimeString()}

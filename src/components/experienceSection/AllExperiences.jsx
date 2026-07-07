@@ -5,50 +5,54 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const experiences = [
   {
-    job: "QA Automation Intern",
-    company: "BDreamz Global Solutions Pvt. Ltd.",
-    date: "Dec 2025 – May 2026",
-    location: "Chennai, India",
-    status: "Current",
-    technologies: ["Java", "Selenium WebDriver", "TestNG", "BDD Cucumber", "Maven", "Jenkins"],
-    responsibilities: [
-      "Built and executed automation frameworks across real-world web applications",
-      "Delivered end-to-end projects for banking (ParaBank), HR (OrangeHRM), and e-commerce (SauceDemo, KFC India, FullyFilmy) domains",
-      "Configured Jenkins CI/CD pipeline and implemented Data-Driven Testing using Apache POI",
-      "Awarded internship completion certificate upon successful project delivery"
-    ],
-    link: ""
-  },
-  {
-    job: "SEO Specialist",
-    company: "Freelance",
-    date: "Nov 2024 - Mar 2026",
+    job: "Digital Marketing Specialist",
+    company: "Orange Digital Marketing",
+    date: "Dec 2024 – May 2026",
     location: "Chennai, India",
     status: "Completed",
-    technologies: ["SEO", "Link Building", "Guest Posting"],
+    technologies: ["SEO", "Content Marketing", "Social Media Marketing", "Google Analytics", "Google Ads"],
     responsibilities: [
-      "Executed guest posting and backlink acquisition strategies for clients across multiple niches",
-      "Tracked SEO trends and tool outputs to continuously refine optimisation approaches for client projects",
-      "Collaborated directly with clients to understand project goals, manage expectations, and deliver regular updates"
+      " Executed On-Page SEO strategies including keyword research, content optimization, meta implementation, and internal linking",
+      "Delivered Premium Link Building Services using white-hat outreach strategies",
+      "Executed Social Media Marketing (SMM) campaigns to increase reach and audience interaction",
+      "Assisted in PPC Campaign setup and optimization for Google Ads and Bing Ads, improving ROI by 20%",
+      "Monitored and analyzed website traffic and user behavior using Google Analytics, providing actionable insights for continuous improvement"
     ],
     link: ""
   },
   {
-    job: "Marketing Executive",
-    company: "Lupin Limited",
-    date: "Feb 2024 - Oct 2024",
+    job: "Search Engine Optimization Analyst",
+    company: "Tick Network",
+    date: "Oct 2024 - Dec 2024",
     location: "Chennai, India",
     status: "Completed",
-    technologies: ["CRM", "Doctor Engagement", "CME Programs"],
+    technologies: ["SEO", "Link Building", "Guest Posting", "Product Optimization"],
     responsibilities: [
-      "Maintained excellent territory sales targets through strategic engagement",
-      "Conducted CME programs for healthcare professionals",
-      "Maintained CRM databases and analyzed prescription trends",
-      "Ensured ethical marketing practices were upheld"
+      "On-Page Optimization: Optimized META Titles and Descriptions, implemented Image ALT Text, and integrated Blog Schema Markups to improve search engine rankings using Google Keyword Planner and Google Search Console.",
+      "Technical SEO: Conducted competitor analysis using SEMrush, identifying SEO gaps and providing actionable insights for GIRI India’s SEO strategy.",
+      "Performance Monitoring: Used Google Analytics, Google Search Console, and Tag Manager to monitor traffic, keyword performance, and overall website health.",
+      "Google Merchant Center: Managed and optimized product listings, applying SEO best practices to improve visibility and rankings in SERPs.",
+      "Link Building: Executed a comprehensive link-building strategy, acquiring high-quality backlinks through guest posting, outreach campaigns, and partnerships with relevant industry websites."
     ],
     link: ""
   },
-  {
+
+    {
+    job: "Guest Posting Specialist",
+    company: "Self - Freelance",
+    date: "Jan 2025 - Current",
+    location: "Chennai, India",
+    status: "Providing Services",
+    technologies: ["Off-page SEO", "Guest Posting","Link Building"],
+    responsibilities: [
+      "Delivered guest posting, off-page SEO, and white-hat link-building services to improve website authority and search engine rankings.",
+      "Conducted outreach to relevant websites and secured high-quality backlinks across various niches.",
+      "Managed link-building campaigns while ensuring adherence to SEO best practices and client requirements.",
+    ],
+    link: ""
+  }, 
+
+  /*{
     job: "Marketing Executive",
     company: "Micro Labs Limited",
     date: "Jul 2023 - Jan 2024",
@@ -60,8 +64,9 @@ const experiences = [
       "Monitored prescription trends and optimized outreach",
       "Collaborated with internal teams to drive regional growth"
     ]
-  },
-  {
+  }, */
+
+   /* {
     job: "SEO Analyst",
     company: "Iyanar Infotech Private Limited",
     date: "Jan 2021 - Nov 2022",
@@ -74,8 +79,10 @@ const experiences = [
       "Acquired 50+ high-authority backlinks, increasing domain authority by 15 points in 3 months",
       "Delivered monthly SEO performance reports using Google Analytics, Search Console, and Ahrefs — achieving consistent 10% MoM organic growth"
     ]
-  }
+  }  */
 ];
+
+
 
 const AllExperiences = () => {
   return (
@@ -149,7 +156,7 @@ const AllExperiences = () => {
         </p>
         <div className="flex justify-center gap-4">
           <a
-            href="https://github.com/deepaksekarqa"
+            href="https://github.com/srinathsqa"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-green/10 hover:bg-green/20 text-green px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 border border-green/30"
@@ -158,7 +165,7 @@ const AllExperiences = () => {
             <span>GitHub</span>
           </a>
           <a
-            href="https://www.linkedin.com/in/deepaksekar7/"
+            href="https://www.linkedin.com/in/srinathsekar/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-cyan/10 hover:bg-cyan/20 text-cyan px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 border border-cyan/30"

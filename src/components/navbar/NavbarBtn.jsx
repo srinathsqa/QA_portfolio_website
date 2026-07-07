@@ -11,7 +11,7 @@ const NavbarBtn = () => {
       >
         <Link spy={true} smooth={true} duration={500} offset={-120} to="contact" className="relative z-10">
           <div className="flex items-center gap-2">
-            <span>Let&apos;s Talk</span>
+            <span>Connect Now </span>
             <HiArrowDown className="text-sm group-hover:translate-y-1 transition-transform duration-300" />
           </div>
         </Link>

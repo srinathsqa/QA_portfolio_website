@@ -40,7 +40,7 @@ const FooterMain = () => {
             <div className="flex items-center gap-3">
               <BsTerminal className="text-green text-2xl" />
               <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green to-cyan">
-                Deepak S
+                Srinath S
               </h3>
             </div>
             <p className="text-white/60 font-mono text-sm max-w-md">
@@ -85,7 +85,7 @@ const FooterMain = () => {
           <div className="flex items-center gap-3">
             <BsTerminal className="text-green text-xl" />
             <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green to-cyan">
-              Deepak S
+              Srinath S
             </h3>
           </div>
           
@@ -110,12 +110,12 @@ const FooterMain = () => {
         <div className="flex md:flex-row sm:flex-col items-center justify-between mt-12 pt-8 border-t border-green/20 gap-4">
           <p className="text-white/40 font-mono text-xs">
             <span className="text-green">console.log(</span>
-            &quot;Built with ❤️ and lots of ☕&quot;
+            &quot;Contact now: Srinath&quot;
             <span className="text-green">);</span>
           </p>
           
           <p className="text-white/40 text-xs font-mono">
-            © {currentYear} Deepak S | All Rights Reserved
+            © {currentYear} Srinath S | All Rights Reserved
           </p>
         </div>
 

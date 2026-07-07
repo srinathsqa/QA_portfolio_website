@@ -42,8 +42,8 @@ const ProjectsText = () => {
           I&apos;ve built end-to-end{" "}
           <span className="text-cyan font-semibold">QA automation frameworks</span> and complete{" "}
           <span className="text-green font-semibold">manual testing suites</span>{" "}
-          across real-world web applications — covering banking, HR, and{" "}
-          <span className="text-yellow font-semibold">e-commerce domains</span>.
+          across real-world web applications and  {" "}
+          <span className="text-yellow font-semibold">Software</span>.
         </p>
 
         {/* Typewriter effect for dynamic content */}
@@ -61,7 +61,7 @@ const ProjectsText = () => {
 
         {/* Tech stack tags */}
         <div className="flex flex-wrap justify-center gap-2 mt-8">
-          {['SELENIUM', 'BDD CUCUMBER', 'JAVA', 'TESTNG', 'JENKINS', 'MANUAL TESTING'].map((tech, index) => (
+          {['SELENIUM', 'BDD CUCUMBER', 'JAVA', 'TESTNG', 'JENKINS', 'MANUAL TESTING', 'API TESTING', 'PLAYWRIGHT'].map((tech, index) => (
             <span
               key={tech}
               className="px-3 py-1 text-xs bg-green/10 border border-green/20 rounded-lg text-green font-mono uppercase tracking-wider hover:bg-green/20 transition-colors duration-300"

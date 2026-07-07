@@ -46,7 +46,7 @@ const ContactText = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <p className="text-gray-300 text-lg leading-relaxed mb-4">
-            Open to <span className="text-green font-semibold">QA Engineer</span>, SDET, and <span className="text-green font-semibold">Test Automation</span> roles in Chennai or remote. 
+            Open to <span className="text-green font-semibold">QA Engineer</span>, SDET, and <span className="text-green font-semibold">Test Automation</span>, Manual Testing roles in Chennai or remote. 
             I&apos;d love to connect with hiring managers, QA leads, and teams looking for structured test coverage and reliable automation.
           </p>
         </motion.div>

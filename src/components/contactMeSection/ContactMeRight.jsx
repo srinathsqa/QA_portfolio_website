@@ -6,19 +6,19 @@ const ContactMeRight = () => {
   const socialLinks = [
     {
       icon: FaGithub,
-      href: "https://github.com/deepaksekarqa",
+      href: "https://github.com/srinathsqa",
       label: "GitHub",
       color: "hover:text-gray-300"
     },
     {
       icon: FaLinkedin,
-      href: "https://www.linkedin.com/in/deepaksekar7",
+      href: "https://www.linkedin.com/in/srinathsekar/",
       label: "LinkedIn",
       color: "hover:text-blue-400"
     },
     {
       icon: FaEnvelope,
-      href: "mailto:deepaks.seoanalyst@gmail.com",
+      href: "mailto:srinathofficalwork2603@gmail.com",
       label: "Email",
       color: "hover:text-green"
     }

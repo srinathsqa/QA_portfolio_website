@@ -68,15 +68,18 @@ const AboutMeText = () => {
         className="space-y-4 text-white/80 leading-relaxed"
       >
         <p className="text-lg">
-          I&apos;m Deepak, QA Automation Engineer with hands-on experience in Manual Testing and Selenium Automation for real-world web applications. My background in SEO analysis and client-facing roles has strengthened my analytical thinking, attention to detail, and problem-solving abilities.
+          I&apos;m Srinath, QA Automation Engineer with hands-on experience in Manual Testing and Selenium Automation for real-world web applications. My background in SEO analysis and client-facing roles has strengthened my analytical thinking, attention to detail, and problem-solving abilities.
         </p>
 
         <p className="text-lg">
-          I&apos;m currently building expertise in Selenium WebDriver, Java, TestNG, Maven, SQL, and API Testing, along with framework development using the Page Object Model (POM). I also have exposure to CI/CD workflows and version control tools such as Jenkins and Git.
+          I&apos;m currently building expertise in Selenium WebDriver, Java, TestNG, Maven, SQL, and API Testing, along with framework development using the Page Object Model (POM). I also have exposure to CI/CD workflows and version control tools such as Git.
         </p>
 
         <p className="text-lg">
           I&apos;m passionate about ensuring software quality through structured testing methodologies, automation frameworks, and defect tracking practices. I enjoy identifying issues, improving application reliability, and contributing to seamless user experiences.
+        </p>
+        <p className="text-lg">
+          Ex Digital Marketer
         </p>
       </motion.div>
 

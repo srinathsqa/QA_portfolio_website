@@ -49,24 +49,22 @@ const ExperienceTopRight = () => {
       <div className="space-y-4">
         <p className="text-gray-300 leading-relaxed text-center">
           I specialise in QA Automation, building end-to-end test frameworks
-          using <span className="font-bold text-cyan bg-cyan/10 px-2 py-1 rounded">Java, Selenium WebDriver, and BDD Cucumber</span> — delivering
+          using <span className="font-bold text-cyan bg-cyan/10 px-2 py-1 rounded">Java, Selenium WebDriver, and TestNg</span> — delivering
           reliable, maintainable, and scalable test coverage.
         </p>
         
         <div className="bg-black/20 rounded-lg p-4 border border-green/10">
           <p className="text-sm text-gray-400 mb-2 text-center">Focus Areas:</p>
           <div className="grid grid-cols-2 gap-2 text-xs">
-            <div className="bg-green/10 text-green px-2 py-1 rounded text-center truncate">Test Automation</div>
-            <div className="bg-cyan/10 text-cyan px-2 py-1 rounded text-center truncate">BDD Cucumber</div>
-            <div className="bg-green/10 text-green px-2 py-1 rounded text-center truncate">CI/CD Pipeline</div>
-            <div className="bg-cyan/10 text-cyan px-2 py-1 rounded text-center truncate">Page Object Model</div>
+            <div className="bg-green/10 text-green px-2 py-1 rounded text-center truncate">QA Automation</div>
+            <div className="bg-cyan/10 text-cyan px-2 py-1 rounded text-center truncate">CI/CD Pipeline</div>
+            <div className="bg-green/10 text-green px-2 py-1 rounded text-center truncate">API Testing</div>
+            <div className="bg-cyan/10 text-cyan px-2 py-1 rounded text-center truncate">Testing Frameworks</div>
           </div>
         </div>
         
         <p className="text-gray-300 leading-relaxed text-center text-sm">
-          My experience spans <span className="font-bold text-green">5 real-world automation projects</span> — from banking
-          and HR platforms to live e-commerce apps — always aiming for
-          zero-defect delivery and complete test coverage.
+          Enthusiastic <span className="font-bold text-green">QA Automation Tester</span> with practical knowledge of Java, Selenium, TestNG, and Maven, committed to building reliable automation frameworks and delivering high-quality software testing solutions.
         </p>
       </div>
 

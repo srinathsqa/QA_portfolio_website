@@ -20,7 +20,7 @@ const HeroText = () => {
         viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="text-green/60 font-mono text-sm"
       >
-        <span className="text-green">01.</span> console.log(&quot;Hello World&quot;);
+        <span className="text-green">01.</span> console.log(&quot;portfolio &quot;);
       </motion.div>
 
       <motion.h2
@@ -30,7 +30,7 @@ const HeroText = () => {
         viewport={{ once: true, amount: 0.1, margin: "0px 0px -50px 0px" }}
         className="lg:text-2xl sm:text-xl uppercase text-white/80 font-light tracking-wider"
       >
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan to-green font-semibold">QA Automation</span>{" "}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan to-green font-semibold">QA Automation Engineer</span>{" "}
         <span className="text-white/60">&amp;</span>{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-green to-cyan font-semibold">Manual Testing</span>{" "}
         Engineer
@@ -44,7 +44,7 @@ const HeroText = () => {
         className="md:text-[3.5rem] lg:text-6xl sm:text-5xl font-bold uppercase relative whitespace-nowrap"
       >
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-green via-cyan to-green bg-[length:200%_auto] animate-pulse">
-          DEEPAK
+          SRINATH
         </span>
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan via-green to-cyan bg-[length:200%_auto] animate-pulse ml-2 md:ml-4">
           S
@@ -52,7 +52,7 @@ const HeroText = () => {
         
         {/* Glitch effect overlay */}
         <div className="absolute inset-0 text-green/20 animate-pulse blur-sm">
-          DEEPAK S
+          Srinath S
         </div>
       </motion.h1>
 

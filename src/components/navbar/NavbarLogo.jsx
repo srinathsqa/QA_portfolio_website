@@ -5,7 +5,7 @@ const NavbarLogo = () => {
       <div className="hidden md:block">
         <h1 className="text-2xl lg:text-3xl font-mono font-bold tracking-wider transition-all duration-300 group-hover:scale-105">
           <span className="text-green relative">
-            DEEPAK
+            SRINATH
             <span className="absolute -top-1 -right-1 text-xs text-cyan opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               01
             </span>
@@ -21,7 +21,7 @@ const NavbarLogo = () => {
       {/* Mobile Logo */}
       <div className="block md:hidden">
         <h1 className="text-3xl font-mono font-bold relative whitespace-nowrap shrink-0 min-w-fit">
-          <span className="text-green">DEEPAK</span>
+          <span className="text-green">SRINATH</span>
           <span className="absolute -top-1 -right-1 text-xs text-cyan opacity-60">01</span>
           <span className="text-white">.QA</span>
         </h1>

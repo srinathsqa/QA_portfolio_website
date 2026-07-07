@@ -6,7 +6,7 @@ import SingleInfo from "./SingleInfo";
 
 const ContactInfo = () => {
   const contactData = [
-    { text: "deepaks.seoanalyst@gmail.com", Icon: HiOutlineMail },
+    { text: "srinathofficalwork2603@gmail.com", Icon: HiOutlineMail },
     { text: "Chennai, TN, 🇮🇳", Icon: IoLocationOutline }
   ];
 

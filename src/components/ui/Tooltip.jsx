@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Button1 = () => {
   const handleClick = () => {
-    window.location.href = "https://github.com/utkxrsh13";
+    window.location.href = "https://github.com/srinathsqa";
   }
   return (
     <StyledWrapper>
