@@ -51,7 +51,7 @@ const ProjectsMain = () => {
             name="OrangeHRM HR Automation"
             year="2026"
             align="left"
-            image="/images/website-img-3.jpg"
+            image={`${import.meta.env.BASE_URL}images/website-img-3.jpg`}            
             link="https://github.com/srinathsqa/orangehrm-selenium-framework"
             badge="7/7 Passed ✓"
             description="Data-Driven Testing using Apache POI reading employee data from Excel. @DataProvider ran tests 3x dynamically. 7/7 test executions passed."
@@ -69,7 +69,7 @@ const ProjectsMain = () => {
             name="SauceDemo Manual Testing"
             year="2025"
             align="right"
-            image="/images/website-img-2.webp"
+            image={`${import.meta.env.BASE_URL}images/website-img-2.webp`}
             link="https://github.com/srinathsqa/SauceDemo-Manual-Testing"
             badge="60/63 Passed ✓"
             description="Full STLC manual testing — 8 QA artifacts produced. 63 test cases across 6 modules. 60/63 passed. 4 defects found, logged, and traced via RTM."
