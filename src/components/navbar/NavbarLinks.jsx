@@ -7,7 +7,7 @@ const links = [
   { link: "Skills", section: "skills" },
   { link: "Experience", section: "experience" },
   { link: "Projects", section: "projects" },
-  { link: "Resume", linkPath: "/Deepak_S_QA_Resume.pdf" },
+  { link: "Resume", linkPath: "https://drive.google.com/file/d/1jRI38BBM6bmXrmNIg7AQnAfGNvv4W0E-/view?usp=sharing" },
   { link: "Contact", section: "contact" },
 ];
 
